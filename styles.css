@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffe3e3, #ff9a9e);
+  color: #600000;
+  text-align: center;
+}
+
+.header {
+  padding:30px;				
+ background-color: #ff9999;
+  color: white;
+  font-size: 2.5em;
+}
+
+.love-letter, .photo-carousel, .music {
+  padding: 20px;
+  margin: 20px;
+  background: #ffe6e6;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #b30000;
+}
+
+.photos img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accept-link {
+  text-decoration: none;
+  color: white;
+  background: #ff6666;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.accept-link:hover {
+  background: #ff3333;
+  transform: scale(1.1);
+}
+
+
+/* Love Letter Page */
+.love-letter-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+  background: url('vintage-paper.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #5a2a27; /* Dark text color for readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parchment {
+  background: #fdf5dc; /* Parchment paper color */
+  padding: 40px;
+  width: 80%;
+  max-width: 700px;
+  border: 5px solid #d4af37; /* Gold border */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Great Vibes', cursive; /* Romantic cursive font */
+  color: #5a2a27; /* Dark red-brown text */
+  line-height: 1.8;
+  font-size: 1.4em;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #b22222; /* Dark red for the heading */
+}
+
+.signature {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
